@@ -40,7 +40,7 @@ In addition to this, the text could be marked as **Other** if it shows no recogn
 
 As features of multiple genres can be intertwined in a text, **multiple labels** assigned to the same text are allowed. The secondary genre category should be the one which concrete features are less present in the text or which purpose can only be intuitively established. Please note that this applies to a single text in which the features of two genres are intertwined (e.g., an informational text which has some characteristics of a promotion as well), not to a text or multiple texts that consist of paragraphs of different genres (e. g., a document consisting of two texts: a review which is followed by a forum; a text that starts with some information on the benefits of ingredients (Information/Explanation) and continues as a recipe).
 
-<img style="width:100%" src="GINCO-Genre-Annotation-Guidelines/Images/Genre_Schema_10.2021.png">
+<img style="width:100%" src="static/img/Genre_Schema_10.2021.png">
 
 ## General Instructions
 * First, check whether there is a very recognizable form or content based on which you can quickly assign the genre. Reading the complete text is not necessary, just read a couple of sentences from the beginning, middle and the end of the text. That should give you enough information to ascertain the purpose and the most prevalent features of the text.
