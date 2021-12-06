@@ -15,11 +15,11 @@ markdown_ext: md
 
 # Site settings
 
-name: Annodoc
-baseurl: "/annodoc"
-homeurl: "https://github.com/spyysalo/annodoc/"
-editurl: "https://github.com/spyysalo/annodoc/edit/gh-pages"
-issueurl: "https://github.com/spyysalo/annodoc/issues"
+name: GINCO Genre Annotation Guidelines
+baseurl: "/GINCO-Genre-Annotation-Guidelines"
+homeurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines"
+editurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/gh-pages"
+issueurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/issues"
 
 ##############################################################################
 
@@ -29,4 +29,6 @@ collections:
   entity:
     output: true
   relation:
+    output: true
+  genre_pages:
     output: true
