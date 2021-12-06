@@ -54,7 +54,7 @@ As features of multiple genres can be intertwined in a text, **multiple labels**
 
 ## Decision Tree
 
-To get familiar with the genres and the decision process that should be followed, start annotating using our [**decision tree**](Decision-Tree).
+To get familiar with the genres and the decision process that should be followed, start annotating using our [**decision tree**](Decision_Tree).
 
 By clicking on the genre category in the tree, you will be directed to a page which presents genre categories and subcategories by providing a short description, common features, and examples. The description and features of the main category apply to the subcategories as well. Common features have been identified in a preliminary study and are meant to direct the annotator towards the most probable genre, as it was noticed that most of the texts include at least one of the features that are common of their assigned genre. However, that does not mean that a text should include all of the features in order to be assigned a certain genre.
 
