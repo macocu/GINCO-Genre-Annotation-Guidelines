@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  'Decision-Tree'
+title:  'Decision Tree'
 ---
 
 First check the text for the typical characteristics in the section [Quickstart](#quickstart). If none applies, continue to the [Decision Tree](#decision-tree) below. To see the details on genre categories, click on their labels or go to the section [Categories Explained](#categories-explained).
