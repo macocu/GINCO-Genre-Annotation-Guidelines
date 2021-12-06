@@ -11,6 +11,7 @@ The purpose of this annotation task is to assign genre categories to a web corpu
 * [Categories](#categories)
 * [General Instructions](#general-instructions)
 * [Decision Tree](#decision-tree)
+* [The Corpus](#corpus)
 
 ## What is genre?
 
@@ -54,3 +55,19 @@ As features of multiple genres can be intertwined in a text, **multiple labels**
 ## Decision Tree
 
 To get familiar with the genres and the decision process that should be followed, start annotating using our [**decision tree**](Decision-Tree).
+
+By clicking on the genre category in the tree, you will be directed to a page which presents genre categories and subcategories by providing a short description, common features, and examples. The description and features of the main category apply to the subcategories as well. Common features have been identified in a preliminary study and are meant to direct the annotator towards the most probable genre, as it was noticed that most of the texts include at least one of the features that are common of their assigned genre. However, that does not mean that a text should include all of the features in order to be assigned a certain genre.
+
+## The Corpus
+
+The corpus we will annotate consists of texts separated in paragraphs. The text tag includes the ID of the text, word count (in number of words) and some additional information, and the p (paragraph) tag includes the information on whether this paragraph is duplicated in the corpus. Inside the text content a tag <boundary/> can appear as well, which separates a document into multiple texts that should be annotated separately.
+
+When annotating, please take note of the following information inside the tags:
+- id – when annotating always refer to the document by its ID
+- word_count – if the word_count exceeds 5.000, skip the text (do not annotate it)
+- duplicate = “1” – if the paragraph is a duplicate, ignore it – except if it is followed by a word “leave” (in preprocessing, all duplicated paragraphs that are not tagged as “leave” will be removed from the corpus)
+- <boundary/> - this tag denotes a start of a new text. It is followed by a number with a hashtag inside (e. g. 31796#1). When this tag occurs, annotate the text that follows as a new text and use the number with the hashtag as its ID.
+
+See an example of a text in the corpus:
+
+<img style="width:80%" src="static/img/Example-of-text-in-corpus.jpg">
