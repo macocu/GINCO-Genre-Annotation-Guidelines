@@ -18,7 +18,7 @@ markdown_ext: md
 name: GINCO Genre Annotation Guidelines
 baseurl: "/GINCO-Genre-Annotation-Guidelines"
 homeurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines"
-#editurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/gh-pages/_genre_pages"
+editurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/gh-pages/_genre_pages"
 issueurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/issues"
 
 ##############################################################################
