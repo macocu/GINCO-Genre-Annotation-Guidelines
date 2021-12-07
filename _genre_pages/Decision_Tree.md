@@ -9,17 +9,17 @@ First check the text for the typical characteristics in the section [Quickstart]
 
 Do any of the following genre type characteristics apply?
 
-* The text is not suitable for annotation (not Slovene, machine translation, no full sentences) - [Not Suitable](#not-suitable)
+* The text is not suitable for annotation (encoding issues, not Slovene, machine translation or generated text, HTML source code, no full sentences, multiple intertwined texts, too long - longer than 5,000 words, too short/incoherent) - [Not Suitable](#not-suitable)
 * Form: questions and answers by one author - [FAQ](#faq)
 * Form: questions and answers (multiple people, more than one question) - [Interview](#interview)
 * Form: letter-like form (greeting, complimentary close etc.) adressed to a specific recipient - [Correspondence](#correspondence)
 * Form: verses - [Lyrical](#lyrical)
-* Form: (movie/drama) script - [Script / Drama](#script)
+* Form: (movie/drama) script - [Script - Drama](#script)
 * Form: short paragraphs ending with three dots, "See more ", etc. - [List of Summaries - Excerpts](#list-of-summaries)
 * Content: abstract, methods, results, discussion, conclusions and/or references; scientific terms - [Research Article](#research-article)
 * Content: preparation of food/drinks - [Recipe](#recipe)
 * Content: conversation (multiple people) - [Forum](#forum)
-* Language: legal terms - [Legal / Regulation](#legal)
+* Language: legal terms - [Legal - Regulation](#legal)
 * Purpose: to invite the reader to an event/action - [Invitation](#invitation)
 * Purpose: give pleasure to the reader (and the text is not in a form of verses or a script) - [Prose](#prose)
 
@@ -30,11 +30,11 @@ If not, continue to the Decision Tree below.
 ### 1. Objectiveness
 
 Is the main purpose to objectively inform the reader? Does the text contain no or almost no subjective adjectives or adverbs (already, yet, only), words that convey certainty (surely, certainly) etc.?
-* Yes, it is a report on a recent event - [News / Reporting](#news)
+* Yes, it is a report on a recent event - [News - Reporting](#news)
 * Yes, it addresses the readers and notifies them about new circumstances, asking them to act accordingly- [Announcement](#announcement)
 * Yes, it instructs the reader on how to do something - [Instruction](#instruction)
 * Yes, it asks the readers to submit a paper, project proposal, original literary text etc., stating requirements and a deadline - [Call](#call)
-* Yes, but it is none of the above - [Information / Explanation](#information)
+* Yes, but it is none of the above - [Information - Explanation](#information)
 * No/Not sure - go to the question [2. Subjective text](#q2)
 
 ### 2. Subjective text
@@ -42,9 +42,9 @@ Is the main purpose to objectively inform the reader? Does the text contain no o
 What is the purpose of the text?
 * To subjectively report on a recent event - [Opinionated News](#opinionated-news)
 * To promote/sell products or services (a company) - go to [3. Promotion](#q-promotion)
-* To convey opinion (no commercial purpose) - [Opinion / Argumentation](#opinion)
+* To convey opinion (no commercial purpose) - [Opinion - Argumentation](#opinion)
 * To convey opinion on a product based on personal experiences - [Review](#review) 
-* The purpose of the text is indiscernible / not covered by other categories - [Other](#other)
+* The purpose of the text is indiscernible - not covered by other categories - [Other](#other)
 
 ### 3. Promotion
 Is the main purpose to promote/sell products or services? Does the text address the reader and includes subjective adjectives and adverbs?
@@ -58,16 +58,16 @@ If you are not sure, whether the text promotes a product or services, or if it p
 
 Table of Contents:
 * [Not Suitable](#not-suitable)
-* [News / Reporting](#news)
+* [News - Reporting](#news)
 * [Announcement](#announcement)
 * [Instruction](#instruction)
 * [Recipe](#recipe)
-* [Information / Explanation](#information)
+* [Information - Explanation](#information)
 * [Research Article](#research-article)
 * [Call](#call)
-* [Legal / Regulation](#legal)
+* [Legal - Regulation](#legal)
 * [Opinionated News](#opinionated-news)
-* [Opinion / Argumentation](#opinion)
+* [Opinion - Argumentation](#opinion)
 * [Review](#review)
 * [Promotion](#promotion)
 * [Promotion of a Product](#promotion-product)
@@ -76,7 +76,7 @@ Table of Contents:
 * [Interview](#interview)
 * [Forum](#forum)
 * [Correspondence](#correspondence)
-* [Script / Drama](#script)
+* [Script - Drama](#script)
 * [Lyrical](#lyrical)
 * [Prose](#prose)
 * [FAQ](#faq)
@@ -86,9 +86,23 @@ Table of Contents:
 
 ### Not Suitable
 
+If the text is not suitable for annotation, please label it with one of the following categories:
+* **Boilerplate**: contains only the information in the header of footer (such as "Cookies")
+* **Encoding Issues**: there are issues with encoding/OCR. *Note*: If the text is written without diacritics (c, s, and z instead of č, ć, š, and ž), annotate it with genres, do not discard it. 
+* **Generated Text**: a text that was automatically generated based on a form.
+* **HTML Source Code**: contains tags that are a part of a HTML code
+* **Machine Translation**: a text is an obvious machine translation (contains words that do not exist in the target language, wrong declensions of nouns, adjectives, adverbs, and wrong conjugation of verbs, incoherent text)
+* **Multiple Texts**: contains intertwined texts of various genres (e.g. an article which includes a whole letter)
+* **Non-textual**: does not consist of sentences (receipts, statistics, code, program, forms for making queries, purchases, downloading or logging in, link collection, image collection, search page, tables, calendar, lists: bibliography, list of events (agenda), directory of persons in organization or organizations, menu, dictionary, glossary, CV/resume etc.). *Note*: If a text consists of some lists and other non-textual elements, but includes sentences as well, do not discard it as “non-textual”.
+* **Not Slovene**/**Not English**/**Not Croatian**: contains a full sentence in a foreign language that is not our target language. If there are only a few foreign words in an otherwise Slovene/English/Croatian text, do not discard it.
+* **Too Long**: longer than 5,000 words
+* **Too Short/Incoherent**: it is not possible to ascertain genre based on the text as it is too short / the text is incoherent, makes no sense.
+
+Go to [examples](_entity/Not_Suitable_examples.md).
+
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
-### News / Reporting
+### News - Reporting
 An objective text which reports on an event recent at the time of writing or coming in the near future.
 
 Common features:
@@ -153,7 +167,7 @@ Go to [examples](_entity/Recipe_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
-### Information / Explanation
+### Information - Explanation
 An objective text that describes or presents an event, a person, a thing, a concept etc.
 
 Common features:
@@ -190,7 +204,7 @@ A text which asks the readers to submit a paper, project proposal, original lite
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
-### Legal / Regulation
+### Legal - Regulation
 An objective formal text that contains legal terms and is clearly structured. The name of the text type is often included in the headline (contract, rules, amendment, general terms and conditions, etc.).
 
 Common features:
@@ -211,7 +225,7 @@ A subjective text which reports on an event recent at the time of writing or com
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
-### Opinion / Argumentation
+### Opinion - Argumentation
 A subjective text in which the authors convey their opinion or narrate their experience. It includes promotion of an ideology and other non-commercial causes. This genre includes a subjective narration of a personal experience as well.
 
 Common features:
@@ -243,36 +257,83 @@ Go to [examples](_entity/Review_examples.md).
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Promotion
-A subjective text intended to sell or promote an event, product, or service.
+A subjective text intended to sell or promote an event, product, or service. It addresses the readers, often trying to convince them to participate in something or buy something. This category includes the subcategories *Promotion of a Product*, *Promotion of Services* and *Invitation* and is used when the text has features of promotion, but we are not sure under which of the subcategories it belongs.
 
-*Note*: Even if the text promotes a *free* product, it is still regarded as promotion.
+Common features:
+*	subjective: contains adjectives/adverbs that promote something (high-quality, perfect, amazing, extraordinary, comfortable, extremely, very)
+*	comparative and superlative forms of adjectives and adverbs (the best, the greatest, the cheapest)
+*	addressing the reader (usage of 2nd person)
+
+*Note*: Even if the text promotes a *free* product, it is still regarded as promotion (it promotes for instance the benefits of certain foods).
 
 *Note*: If the text is an review (the author conveys her/his personal experience with the product), it is regarded as Opinion and not Promotion, although it could have some promotional features.
+
+Examples: advertisement, description with intent to sell, e-shop.
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Promotion of a Product
-A subjective text which promotes a product, an application, an accommodation, etc.
+A subjective text which promotes a product, a movie, an application, a tool, or an accommodation, housing, etc.
+
+Common features:
+* 3rd person
+* common words/expressions (Slovene: ugodnost, popust, spletna trgovina, koristen, čudovit, priročen, posebnost, nič več, rešitev, na srečo, izboljšati, kakovost, želje, dolga življenjska doba)
+
+Examples: an advertisement, a product presentation page, an e-shop catalogue page.
+
+Go to [examples](_entity/Promotion_Product_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Promotion of Services
 A subjective text which promotes services of a company.
 
+Common features:
+* 1st person
+* common words/expressions (Slovene: strokovnjaki, specialisti, partner, stranke, naročniki, kupci, izkušnje, storitve, nabor storitev, servis, potrebe, želje, rešitve, koristi, fleksibilnost, inovativnost, učinkovitost, strokovnost, pomagati, izvajati, svetovati, ponujati, zagotavljati, obvladati, po vaši meri, celosten, konkurenčen, hitro, natančno, profesionalno)
+
+Example: a company landing page.
+
+Go to [examples](_entity/Promotion_Services_examples.md).
+
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Invitation
-A text which invites the readers to participate in an event.
+A text which invites the readers to participate in an event or an action (such as asking for donations).
+
+Common features:
+* 1st person
+* common words/expressions (invite, join us)
+* future tense
+* adverbs/adverbial clauses of time and/or place (dates, places)
+* exclamation marks
+
+*Note*: Annotate the text as Invitation only if it explicitly invites the readers (addresses the reader) or is very subjective. Otherwise it is more likely that the text solely reports that an event is going to happen (News/Reporting).
+
+Go to [examples](_entity/Invitation_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Interview
-A text consisting of questions posed by the interviewer and answers by the interviewee.
+A text consisting of questions posed by the interviewer and answers by the interviewee. It should consist of more than 1 question and 1 answer.
+
+Common features:
+* questions and answers
+* involves multiple people
+
+Go to [examples](_entity/Interview_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Forum
 A text in which people discuss a certain topic in form of comments.
+
+Common features:
+* multiple authors
+
+Examples: comments, QA forum, reader/viewer responses.
+
+Go to [examples](_entity/Forum_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -281,18 +342,32 @@ A text addressed to a person or organization with a form, similar to a letter, i
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
-### Script / Drama
-A literary text that mostly consists of dialogue of characters, stage directions and instructions to the actors.
+### Script - Drama
+A literary text that mostly consists of dialogue of characters, stage directions and instructions to the actors. It is meant to be spoken, played out.
+
+Common features:
+* dialogue of characters
+* common words (Slovene: dejanje, prizor; English: act, stage, scene)
+
+Go to [examples](_entity/Script-Drama_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Lyrical
 A text that consists of verses.
 
+Examples: lyrics, poems, prayers.
+
+Go to [examples](_entity/Lyrical_examples.md).
+
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Prose
-A literary running text that consists of paragraphs.
+A literary running text that consists of paragraphs. A literary text is deemed to have no other practical purpose than to give pleasure to the reader. Often the author pays attention to the aesthetic appearance of the text. It can be considered as art.
+
+*Note*: This category includes jokes.
+
+Go to [examples](_entity/Prose_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -325,8 +400,10 @@ Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [C
 
 ### Other
 
-A text that is appropriate for annotation but has no clear purpose or tangible features based on which it could be annotated - a non-literary text, which does not fall under any of the categories based on its purpose
+A text that is appropriate for annotation but has no clear purpose or tangible features based on which it could be annotated - a non-literary text, which does not fall under any of the categories based on its purpose.
 
-Examples: apology letter, enquiry, a complaint, reply to a complaint, love letter, greeting card, postcard, legal appeal, resignation, condolence message, exercise, quiz, survey, exam, worksheet
+*Note*: All instances of correspondence that could not be annotated as Forum, should be considered Other.
+
+Examples: legal appeal, exercise, quiz, survey, exam, worksheet.
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
