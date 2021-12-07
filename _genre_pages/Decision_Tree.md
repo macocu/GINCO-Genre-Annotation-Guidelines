@@ -128,10 +128,28 @@ Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [C
 ### Instruction
 An objective text which instructs the readers on how to do something.
 
+Common features:
+* multiple steps/actions
+* chronological order
+* 1st person plural or 2nd person
+* modality (must, have to, need to, can, etc.)
+
+*Note*: If a text has features of an instruction, but it is subjective (contains subjective adjectives or adverbs, words that convey certainty), annotate it as Opinion/Argumentation, and use the secondary category Instruction.
+
+Go to [examples](_entity/Instruction_examples.md).
+
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Recipe
 An objective text which instructs the readers on how to prepare food or drinks.
+
+Common features:
+*	topic: food/drinks
+*	list of ingredients
+*	adverbs/adverbial clauses of manner
+*	multiple steps
+
+Go to [examples](_entity/Recipe_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -173,7 +191,18 @@ A text which asks the readers to submit a paper, project proposal, original lite
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Legal / Regulation
-An objective formal text that contains legal terms and is clearly structured.
+An objective formal text that contains legal terms and is clearly structured. The name of the text type is often included in the headline (contract, rules, amendment, general terms and conditions, etc.).
+
+Common features:
+* objective/factual: contains no or almost no adjectives/adverbs that convey opinion or promote something (great, awful, high-quality)
+*	legal terms (Slovene: splošni pogoji, pravica, akt, pravilnik, zakon, uredba, Uradni list, člen, pogodba, obveznost, globa, vloga)
+*	common words/expressions (Slovene: pridržati, biti dolžan, pisno dovoljenje, prepovedan, kaznovati, jamčiti, odgovarjati, zavezati se)
+*	modality (must, can, cannot, should not, need to)
+* 3rd person
+
+Examples: small print, software license, rule, proclamation, terms and conditions, contracts, law, copyright notices, university regulation …
+
+Go to [examples](_entity/Legal_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -183,12 +212,33 @@ A subjective text which reports on an event recent at the time of writing or com
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Opinion / Argumentation
-A subjective text in which the authors convey their opinion or narrate their experience. It includes promotion of an ideology and other non-commercial causes.
+A subjective text in which the authors convey their opinion or narrate their experience. It includes promotion of an ideology and other non-commercial causes. This genre includes a subjective narration of a personal experience as well.
+
+Common features:
+* subjective: contains adjectives/adverbs that convey opinion (happy, great, aweful)
+*	words that convey (un)certainty (certainly, surely)
+*	Slovene: Slovene particle (členek – že, še, le, tudi, sploh …)
+* 1st person
+
+*Note*: If there are doubts whether the text belongs to *Opinionated News* or *Opinion/Argumentation*, consider whether there are any dates and locations mentioned. If not and if it seems unlikely that such text would be published on a news site, annotate it as *Opinion/Argumentation*.
+
+Examples: blog, editorial, advice, letter to editor, persuasive article or essay, formal speech, pamphlet, political propaganda, columns, political manifesto.
+
+Go to [examples](_entity/Opinion_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Review
-A subjective text in which authors evaluate a certain entity based on their personal experience.
+a text in which authors evaluate a certain entity (a publication, a product, or a service, such as a movie, a video game, a musical composition, or a book) by endorsing or criticizing it. They usually report their personal experience with the product. It can be differentiated from the promotional text by the usage of 1st person and conveying personal experience with the product.
+
+Common features:
+* 1st person
+* topic: product or service
+* common words/expressions (Slovene: kaj je treba upoštevati, bomo preučili, kateri je najboljši, izbrati, vreden denarja, vredno investirati, kakovost, priporočati, primeren)
+
+*Note*: Use this category only for texts in which the authors convey their personal experience with the product. If the text compares multiple products, but it is not based on personal experience, annotate it as Promotion of a Product + Review (as a secondary category).
+
+Go to [examples](_entity/Review_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -247,12 +297,29 @@ A literary running text that consists of paragraphs.
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### FAQ
-A text in which an author informs the reader through questions and answers.
+A text consisting of questions and answers written by the same author with the purpose to inform the reader about something or how to do something.
+
+Common features:
+*	questions and answers (one author – it is not an interview)
+*	title “Frequently Asked Questions”
+
+Go to [examples](_entity/FAQ_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### List of Summaries / Excerpts
 A text which consists of summaries or excerpts of multiple articles/topics (usually from the article archive page).
+
+Common features:
+*	short paragraphs
+*	multiple headlines
+*	each paragraph has a separate topic
+*	paragraphs ending with three dots
+*	common words/expressions (Read more, More, See more …)
+
+Examples: summaries/excerpts of articles (news archive), summaries of series/movies in a TV program.
+
+Go to [examples](_entity/List_of_Summaries_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
