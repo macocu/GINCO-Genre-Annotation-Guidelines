@@ -98,7 +98,7 @@ If the text is not suitable for annotation, please label it with one of the foll
 * **Too Long**: longer than 5,000 words
 * **Too Short/Incoherent**: it is not possible to ascertain genre based on the text as it is too short / the text is incoherent, makes no sense.
 
-Go to [examples](_entity/Not_Suitable_examples.md).
+Go to [examples of Not Suitable](_entity/Not_Suitable_examples.md)
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
