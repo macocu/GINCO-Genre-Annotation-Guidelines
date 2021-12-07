@@ -91,12 +91,37 @@ Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [C
 ### News / Reporting
 An objective text which reports on an event recent at the time of writing or coming in the near future.
 
-Go to [examples](Information_Examples).
+Common features:
+* topic: recent event/activities
+* adverbs/adverbial clauses of time and/or place (dates, places)
+* many proper nouns
+*	direct or reported speech
+* past tense
+
+*Note*: Please note that direct or reported speech should be regarded as a part of news/reporting, even if it is more subjective. When deciding whether the text is subjective or not, please disregard the reported speech.
+
+*Note*: If a text which reports about an event is subjective (consists of many subjective adjectives or adverbs and particles), annotate it as **Opinionated News**.
+
+Examples: news report, sports report, travel blog, reportage, police report.
+
+Go to [examples](_entity/News_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Announcement
-An objective text which notifies the readers about new circumstances, asking them to act accordingly.
+An objective text which notifies the readers about new circumstances, asking them to act accordingly. Unlike invitation (promotion) there is no intent to sell/promote – it is objective and factual.
+
+Common features:
+* 1st person
+*	addressing the reader (usage of 2nd person)
+*	adverbs/adverbial clauses of time and/or place (dates, places)
+*	common words/expressions (Slovene: "obvestilo, pozivati, obveščati, prositi")
+
+*Note*: Unless the presence of features of News/Reporting is significant, avoid adding “News/Reporting” as the secondary category to this genre, as many Announcements intrinsically contain also some information on past events.
+
+Examples: notification (error message), announcement ("we would like to inform you").
+
+Go to [examples](_entity/Announcement_examples.md)
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -113,10 +138,32 @@ Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [C
 ### Information / Explanation
 An objective text that describes or presents an event, a person, a thing, a concept etc.
 
+Common features:
+* objective/factual: contains no or almost no adjectives/adverbs that convey opinion or promote something (great, awful, high-quality)
+* explanation/definition of a concept (x is …)
+* enumeration
+
+*Note*: If the text is more subjective than objective or there are quantitatively more features of another genre, choose this genre instead of Information/Explanation.
+
+Examples: informational blog, product specification, course materials, syllabus, textbook, general information, job description, manual, horoscope, travel guide, (informational) PowerPoint slides, encyclopedia article, historical article, biographical story/history.
+
+Go to [examples](_entity/Information_Examples.md).
+
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Research Article
-An objective text which presents research, uses formal language and scientific terms.
+An objective text which presents research, uses formal language and scientific terms. The text is clearly structured.
+
+Common features:
+* at least one of the following titles of a paragraph: abstract, an introduction, methods, results, conclusion, references
+*	formal language
+*	scientific terms
+*	citations
+*	common words (thesis, paper, research, methods, aim, study, etc.)
+
+Examples: research article, abstract.
+
+Go to [examples](_entity/Research_A_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
