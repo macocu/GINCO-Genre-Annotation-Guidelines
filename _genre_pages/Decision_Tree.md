@@ -15,7 +15,7 @@ Do any of the following genre type characteristics apply?
 * Form: letter-like form (greeting, complimentary close etc.) adressed to a specific recipient - [Correspondence](#correspondence)
 * Form: verses - [Lyrical](#lyrical)
 * Form: (movie/drama) script - [Script / Drama](#script)
-* Form: short paragraphs ending with three dots, "See more ", etc. - [List of Summaries / Excerpts](#list-of-summaries)
+* Form: short paragraphs ending with three dots, "See more ", etc. - [List of Summaries - Excerpts](#list-of-summaries)
 * Content: abstract, methods, results, discussion, conclusions and/or references; scientific terms - [Research Article](#research-article)
 * Content: preparation of food/drinks - [Recipe](#recipe)
 * Content: conversation (multiple people) - [Forum](#forum)
@@ -80,7 +80,7 @@ Table of Contents:
 * [Lyrical](#lyrical)
 * [Prose](#prose)
 * [FAQ](#faq)
-* [List of Summaries / Excerpts](#list-of-summaries)
+* [List of Summaries - Excerpts](#list-of-summaries)
 * [Other](#other)
 
 
@@ -307,7 +307,7 @@ Go to [examples](_entity/FAQ_examples.md).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
-### List of Summaries / Excerpts
+### List of Summaries - Excerpts
 A text which consists of summaries or excerpts of multiple articles/topics (usually from the article archive page).
 
 Common features:
