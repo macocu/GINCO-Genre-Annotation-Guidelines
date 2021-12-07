@@ -4,6 +4,8 @@ title: Genre Annotation Guidelines (GINCO)
 ---
 
 Link to the [main decision tree](main_decision_tree).
+Link to the [try 2](GINCO-Genre-Annotation-Guidelines/_entity/main_decision_tree.md)
+Link to the [try 3](_entity/main_decision_tree.md)
 
 The purpose of this annotation task is to assign genre categories to a web corpus in order to determine their distribution in the corpus, and to allow the corpus’ users to create and analyze subcorpora limited to a particular genre. For this purpose, we will annotate genre categories which are recognizable by users of the corpus, and which are characterized by concrete features so that they should be predictable by a machine algorithm and that the manually annotated examples can be used for training a genre classifier.
 
