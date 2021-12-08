@@ -14,12 +14,12 @@ Do any of the following genre type characteristics apply?
 * Form: questions and answers (multiple people, more than one question) - [Interview](#interview)
 * Form: letter-like form (greeting, complimentary close etc.) adressed to a specific recipient - [Correspondence](#correspondence)
 * Form: verses - [Lyrical](#lyrical)
-* Form: (movie/drama) script - [Script/Drama](#script/drama)
-* Form: short paragraphs ending with three dots, "See more ", etc. - [List of Summaries/Excerpts](#list-of-summaries/excerpts)
+* Form: (movie/drama) script - [Script/Drama](#scriptdrama)
+* Form: short paragraphs ending with three dots, "See more ", etc. - [List of Summaries/Excerpts](#list-of-summariesexcerpts)
 * Content: abstract, methods, results, discussion, conclusions and/or references; scientific terms - [Research Article](#research-article)
 * Content: preparation of food/drinks - [Recipe](#recipe)
 * Content: conversation (multiple people) - [Forum](#forum)
-* Language: legal terms - [Legal/Regulation](#legal/regulation)
+* Language: legal terms - [Legal/Regulation](#legalregulation)
 * Purpose: to invite the reader to an event/action - [Invitation](#invitation)
 * Purpose: give pleasure to the reader (and the text is not in a form of verses or a script) - [Prose](#prose)
 
@@ -30,11 +30,11 @@ If not, continue to the Decision Tree below.
 ### 1. Objectiveness
 
 Is the main purpose to objectively inform the reader? Does the text contain no or almost no subjective adjectives or adverbs (already, yet, only), words that convey certainty (surely, certainly) etc.?
-* Yes, it is a report on a recent event - [News/Reporting](#news/reporting)
+* Yes, it is a report on a recent event - [News/Reporting](#newsreporting)
 * Yes, it addresses the readers and notifies them about new circumstances, asking them to act accordingly- [Announcement](#announcement)
 * Yes, it instructs the reader on how to do something - [Instruction](#instruction)
 * Yes, it asks the readers to submit a paper, project proposal, original literary text etc., stating requirements and a deadline - [Call](#call)
-* Yes, but it is none of the above - [Information/Explanation](#information/explanation)
+* Yes, but it is none of the above - [Information/Explanation](#informationexplanation)
 * No/Not sure - go to the question [2. Subjective text](#2-subjective-text)
 
 ### 2. Subjective text
@@ -42,7 +42,7 @@ Is the main purpose to objectively inform the reader? Does the text contain no o
 What is the purpose of the text?
 * To subjectively report on a recent event - [Opinionated News](#opinionated-news)
 * To promote/sell products or services (a company) - go to [3. Promotion](#3-promotion)
-* To convey opinion (no commercial purpose) - [Opinion/Argumentation](#opinion/argumentation)
+* To convey opinion (no commercial purpose) - [Opinion/Argumentation](#opinionargumentation)
 * To convey opinion on a product based on personal experiences - [Review](#review) 
 * The purpose of the text is indiscernible - not covered by other categories - [Other](#other)
 
@@ -58,16 +58,16 @@ If you are not sure, whether the text promotes a product or services, or if it p
 
 Table of Contents:
 * [Not Suitable](#not-suitable)
-* [News/Reporting](#news/reporting)
+* [News/Reporting](#newsreporting)
 * [Announcement](#announcement)
 * [Instruction](#instruction)
 * [Recipe](#recipe)
-* [Information/Explanation](#information/explanation)
+* [Information/Explanation](#informationexplanation)
 * [Research Article](#research-article)
 * [Call](#call)
-* [Legal/Regulation](#legal/regulation)
+* [Legal/Regulation](#legalregulation)
 * [Opinionated News](#opinionated-news)
-* [Opinion/Argumentation](#opinion/argumentation)
+* [Opinion/Argumentation](#opinionargumentation)
 * [Review](#review)
 * [Promotion](#promotion)
 * [Promotion of a Product](#promotion-of-a-product)
@@ -76,11 +76,11 @@ Table of Contents:
 * [Interview](#interview)
 * [Forum](#forum)
 * [Correspondence](#correspondence)
-* [Script/Drama](#script/drama)
+* [Script/Drama](#scriptdrama)
 * [Lyrical](#lyrical)
 * [Prose](#prose)
 * [FAQ](#faq)
-* [List of Summaries/Excerpts](#list-of-summaries/excerpts)
+* [List of Summaries/Excerpts](#list-of-summariesexcerpts)
 * [Other](#other)
 
 
