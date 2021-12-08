@@ -135,7 +135,7 @@ Common features:
 
 Examples: notification (error message), announcement ("we would like to inform you").
 
-Go to [examples](_entity/Announcement_examples.md)
+Go to [examples](_entity\announcement_examples.md)
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
