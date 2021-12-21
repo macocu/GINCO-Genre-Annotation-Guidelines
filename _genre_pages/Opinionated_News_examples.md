@@ -1,3 +1,7 @@
+---
+layout: entry
+title:  'Examples of Opinionated News'
+---
 
 ### Slovene:
 

@@ -1,3 +1,8 @@
+---
+layout: entry
+title:  'Examples of News/Reporting'
+---
+
 ### Slovene
 
 <img style="width:80%" src="example_images\news_sl_1.jpg">

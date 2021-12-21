@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  'Examples of Script / Drama'
+title:  'Examples of Script/Drama'
 ---
 
 ### Slovene

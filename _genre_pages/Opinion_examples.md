@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  'Examples of Opinion / Argumentation'
+title:  'Examples of Opinion/Argumentation'
 ---
 
 ### Slovene

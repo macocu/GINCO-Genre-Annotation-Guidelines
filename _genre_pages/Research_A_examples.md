@@ -1,3 +1,8 @@
+---
+layout: entry
+title:  'Examples of Research Article'
+---
+
 ### Slovene
 
 <img style="width:80%" src="example_images\research_a_sl_1.png">
