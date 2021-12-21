@@ -402,8 +402,6 @@ Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [C
 
 A text that is appropriate for annotation but has no clear purpose or tangible features based on which it could be annotated - a non-literary text, which does not fall under any of the categories based on its purpose.
 
-*Note*: All instances of correspondence that could not be annotated as Forum, should be considered Other.
-
 Examples: legal appeal, exercise, quiz, survey, exam, worksheet.
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
