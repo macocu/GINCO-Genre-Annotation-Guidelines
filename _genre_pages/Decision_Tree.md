@@ -349,7 +349,7 @@ Common features:
 * dialogue of characters
 * common words (Slovene: dejanje, prizor; English: act, stage, scene)
 
-Go to [examples](https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/blob/gh-pages/_genre_pages/Script-Drama_examples.md) or [here](href="https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/blob/gh-pages/_genre_pages/Script-Drama_examples.md").
+Go to [examples](https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/blob/gh-pages/_genre_pages/Script-Drama_examples.html) or [here](href="https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/blob/gh-pages/_genre_pages/Script-Drama_examples.html"), or [here](Script-Drama_examples.md) or [here](Script-Drama_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
