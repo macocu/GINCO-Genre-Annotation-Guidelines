@@ -8,7 +8,7 @@ title:  'Examples of Information / Explanation'
 
 (Source: <a href="https://www.zephyr.org/People/JURE-LESKOVEC">https://www.zephyr.org/People/JURE-LESKOVEC</a>)
 
-<img style="width:80%" src="example_images/Info_en_2.jpg">
+<img style="width:80%" src="example_images/info_en_2.jpg">
 
 (Source: <a href="https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/wales">https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/wales</a>
 
