@@ -98,7 +98,7 @@ If the text is not suitable for annotation, please label it with one of the foll
 * **Too Long**: longer than 5,000 words
 * **Too Short/Incoherent**: it is not possible to ascertain genre based on the text as it is too short / the text is incoherent, makes no sense.
 
-Go to [examples of Not Suitable](Not_Suitable_examples.md)
+Go to [examples of Not Suitable](Not_Suitable_examples)
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -118,7 +118,7 @@ Common features:
 
 Examples: news report, sports report, travel blog, reportage, police report.
 
-Go to [examples](News_examples.md).
+Go to [examples](News_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -135,7 +135,7 @@ Common features:
 
 Examples: notification (error message), announcement ("we would like to inform you").
 
-Go to [examples](announcement_examples.md)
+Go to [examples](announcement_examples)
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -150,7 +150,7 @@ Common features:
 
 *Note*: If a text has features of an instruction, but it is subjective (contains subjective adjectives or adverbs, words that convey certainty), annotate it as Opinion/Argumentation, and use the secondary category Instruction.
 
-Go to [examples](Instruction_examples.md).
+Go to [examples](Instruction_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -163,7 +163,7 @@ Common features:
 *	adverbs/adverbial clauses of manner
 *	multiple steps
 
-Go to [examples](Recipe_examples.md).
+Go to [examples](Recipe_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -179,7 +179,7 @@ Common features:
 
 Examples: informational blog, product specification, course materials, syllabus, textbook, general information, job description, manual, horoscope, travel guide, (informational) PowerPoint slides, encyclopedia article, historical article, biographical story/history.
 
-Go to [examples](Information_Examples.md).
+Go to [examples](Information_Examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -195,7 +195,7 @@ Common features:
 
 Examples: research article, abstract.
 
-Go to [examples](Research_A_examples.md).
+Go to [examples](Research_A_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -216,7 +216,7 @@ Common features:
 
 Examples: small print, software license, rule, proclamation, terms and conditions, contracts, law, copyright notices, university regulation …
 
-Go to [examples](Legal_examples.md).
+Go to [examples](Legal_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -238,7 +238,7 @@ Common features:
 
 Examples: blog, editorial, advice, letter to editor, persuasive article or essay, formal speech, pamphlet, political propaganda, columns, political manifesto.
 
-Go to [examples](Opinion_examples.md).
+Go to [examples](Opinion_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -252,7 +252,7 @@ Common features:
 
 *Note*: Use this category only for texts in which the authors convey their personal experience with the product. If the text compares multiple products, but it is not based on personal experience, annotate it as Promotion of a Product + Review (as a secondary category).
 
-Go to [examples](Review_examples.md).
+Go to [examples](Review_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -281,7 +281,7 @@ Common features:
 
 Examples: an advertisement, a product presentation page, an e-shop catalogue page.
 
-Go to [examples](Promotion_Product_examples.md).
+Go to [examples](Promotion_Product_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -294,7 +294,7 @@ Common features:
 
 Example: a company landing page.
 
-Go to [examples](Promotion_Services_examples.md).
+Go to [examples](Promotion_Services_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -310,7 +310,7 @@ Common features:
 
 *Note*: Annotate the text as Invitation only if it explicitly invites the readers (addresses the reader) or is very subjective. Otherwise it is more likely that the text solely reports that an event is going to happen (News/Reporting).
 
-Go to [examples](Invitation_examples.md).
+Go to [examples](Invitation_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -321,7 +321,7 @@ Common features:
 * questions and answers
 * involves multiple people
 
-Go to [examples](Interview_examples.md).
+Go to [examples](Interview_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -333,7 +333,7 @@ Common features:
 
 Examples: comments, QA forum, reader/viewer responses.
 
-Go to [examples](Forum_examples.md).
+Go to [examples](Forum_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -349,7 +349,7 @@ Common features:
 * dialogue of characters
 * common words (Slovene: dejanje, prizor; English: act, stage, scene)
 
-Go to [examples](Script-Drama_examples.md).
+Go to [examples](Script-Drama_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -358,7 +358,7 @@ A text that consists of verses.
 
 Examples: lyrics, poems, prayers.
 
-Go to [examples](Lyrical_examples.md).
+Go to [examples](Lyrical_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -367,7 +367,7 @@ A literary running text that consists of paragraphs. A literary text is deemed t
 
 *Note*: This category includes jokes.
 
-Go to [examples](Prose_examples.md).
+Go to [examples](Prose_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -378,7 +378,7 @@ Common features:
 *	questions and answers (one author – it is not an interview)
 *	title “Frequently Asked Questions”
 
-Go to [examples](FAQ_examples.md).
+Go to [examples](FAQ_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
@@ -394,15 +394,13 @@ Common features:
 
 Examples: summaries/excerpts of articles (news archive), summaries of series/movies in a TV program.
 
-Go to [examples](List_of_Summaries_examples.md).
+Go to [examples](List_of_Summaries_examples).
 
 Go back to the [Decision Tree](#decision-tree) or to the Table of Contents of [Categories Explained](#categories-explained).
 
 ### Other
 
 A text that is appropriate for annotation but has no clear purpose or tangible features based on which it could be annotated - a non-literary text, which does not fall under any of the categories based on its purpose.
-
-*Note*: All instances of correspondence that could not be annotated as Forum, should be considered Other.
 
 Examples: legal appeal, exercise, quiz, survey, exam, worksheet.
 
