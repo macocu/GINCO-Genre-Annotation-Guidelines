@@ -15,11 +15,11 @@ markdown_ext: md
 
 # Site settings
 
-name: GINCO Genre Annotation Guidelines
-baseurl: "/GINCO-Genre-Annotation-Guidelines"
-homeurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/"
-editurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/edit/gh-pages"
-issueurl: "https://github.com/TajaKuzman/GINCO-Genre-Annotation-Guidelines/issues"
+name: The Guidelines for Manual Checking of Web Corpora
+baseurl: "/Manual-Checking-Web-Corpora-Guidelines"
+homeurl: "https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines"
+editurl: "https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/edit/gh-pages"
+issueurl: "https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues"
 
 ##############################################################################
 
@@ -30,5 +30,5 @@ collections:
     output: true
   relation:
     output: true
-  genre_pages:
+  _pages:
     output: true

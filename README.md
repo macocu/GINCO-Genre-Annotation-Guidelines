@@ -1,6 +1,5 @@
-Genre Annotation Guidelines for GINCO Corpora
+The Guidelines for Manual Checking of Web Corpora
 ================================================
 
-To read the introduction to the genre annotation task, go to <http://TajaKuzman.github.io/GINCO-Genre-Annotation-Guidelines>
+To read the introduction for the task, go to <http://macocu.github.io/Manual-Checking-Web-Corpora-Guidelines>
 
-To go to the Decision Tree and the detailed description of categories directly, go to <https://tajakuzman.github.io/GINCO-Genre-Annotation-Guidelines/genre_pages/Decision_Tree.html>
