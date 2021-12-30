@@ -15,7 +15,7 @@ For each domain, there is a link to the live site and a link to random triples o
 
 
 ## What do we check?
-* machine translation (more details on how to recognize it [here1](_pages/machine_translation.md)) or [here2](_pages/machine_translation) or [here3](_pages\machine_translation.md) or [here4](https://macocu.github.io/Manual-Checking-Web-Corpora-Guidelines/pages/machine_translation.html) or [here5](pages/machine_translation.md). or [here6](pages/machine_translation).
+* machine translation (more details on how to recognize it [here1](_pages/machine_translation.md)).
 * generated text ([examples](_pages/generated_text_examples.md))
 * foreign language
 * lists (no full sentences) ([examples](_pages/non-textual_examples.md))
