@@ -5,6 +5,8 @@ title: Guidelines for Manual Checking of the Web Corpora
 
 The purpose of task is to detect low quality domains which can be removed before we continue to additional processing of the corpora.
 
+For each domain, there is a link to the live site and a link to random triples of sentences in context to see the actual content of the site in Sketch Engine. We thoroughly check just the top 300 to 1500 sites. Other, smaller sites are checked only in the case when their name is suspicious, usually not in the national TLD or containing suspicious words, e.g. "cz.flirtydolls.com".
+
 ## Table of contents
 * [What do we check?](#what-do-we-check)
 * [Steps](#steps)
@@ -24,17 +26,19 @@ The purpose of task is to detect low quality domains which can be removed before
 
 1. Read the examples from the domain:
 	* The top 20 pages should be thoroughly checked:
-		1. open the live website, check whether it looks like it's a machine translation (unusual menu items names, an option of choosing a translation in many languages)
-		2. read all of the concordances in the Sketch Engine, looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source sode or markdown (unusual elements in the running text)
+		1. open the live website (column B), check whether it looks like it's a machine translation (unusual menu items names, an option of choosing a translation in many languages)
+		2. read all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source sode or markdown (unusual elements in the running text)
 
 	* For the remaining pages skimming through the first 10 concordances is enough, checking for the same as above
 
-2. Mark the domain as *ok*, *unsure*, *lq* (low quality) or *bad*:
+2. Mark the domain as *ok*, *unsure*, *lq* (low quality) or *bad* (column D):
 * if there are **no issues** -> *ok*
 * if most of the concordances are **repeated text**, text regarding **cookies** -> *unsure* + add a note *"cookies"* (these examples will be checked again after the deduplication process which will remove the repeated text)
 * if there are **encoding issues** -> *unsure* + add a note *"encoding"* (these examples will be checked after additional text processing (fixing the text with the Monocleaner tool))
 * if there are **some issues**, but the majority of page is okay -> *lq* + add a note, which issue is present. For the top 20 domains, if the issue is HTML Source Code or Markdown, add a description what can be done, e.g. "remove \</br> tags", "remove all pages that have "diff" in the URL name"
 * if there are **mostly issues** -> *bad* + add a note what is the issue
+
+Mark only sites that were checked - content with an empty value in column D is considered unchecked and will be kept in the corpus.
 
 3. (Optional) Add information on topic if you think that the whole domain is dedicated to just one topic:
 * choose from the [proposed topic labels](#topics), if there are additional broad topics present in multiple domains, you can add them
