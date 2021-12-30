@@ -29,25 +29,25 @@ For each domain, there is a link to the live site and a link to random triples o
 		2. read all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source sode or markdown (unusual elements in the running text)
 
 	* For the remaining pages skimming through the first 10 concordances is enough, checking for the same as above
-</br>
+<br/>
 2. Mark the domain as *ok*, *unsure*, *lq* (low quality) or *bad* (column D):
 * if there are **no issues** -> *ok*
 * if most of the concordances are **repeated text**, text regarding **cookies** ([examples](_pages/cookies_examples.md))-> *unsure* + add a note *"cookies"* or *duplicated* (these examples will be checked again after the deduplication process which will remove the repeated text) (column E)
 * if there are **encoding issues** -> *unsure* + add a note *"encoding"* (these examples will be checked after additional text processing (fixing the text with the Monocleaner tool))
-* if there are issues with **HTML source code/markdown** --> *unsure* + add a description what can be done, e.g. "remove \</br> tags", "remove all pages with "&diff=" or "action=edit" in the URL" (column F)
+* if there are issues with **HTML source code/markdown** --> *unsure* + add a description what can be done, e.g. "remove \<br/> tags", "remove all pages with "&diff=" or "action=edit" in the URL" (column F)
 * if there are **some issues**, but the majority of page is okay -> *lq* + add a note, which issue is present (column E)
 * if there are **mostly issues** -> *bad* + add a note what is the issue (column E)
-</br>
+<br/>
 3. (Optional) Add information on topic if you think that the whole domain is dedicated to just one topic:
 * choose from the [proposed topic labels](#topics), if there are additional broad topics present in multiple domains, you can add them
-</br>
+<br/>
 4. (Optional) Add information on genre if all concordances are in the same genre. Choose from the following labels:
 * legal/regulation - legal texts
 * recipe
 * forum
 * promotion of services - all texts promote services of companies
 * promotion of a product - all texts promote products (e-shop)
-</br>
+<br/>
 5. (Optional) If the language on the page seems **unedited** (typos, very informal language etc.), you can mark that by *Y* in column I
 
 Mark only sites that were checked - content with an empty value in column D is considered unchecked and will be kept in the corpus.
