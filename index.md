@@ -28,7 +28,7 @@ For each domain, there is a link to the live site and a link to random triples o
 		1. open the live website (column B), check whether it looks like it's a machine translation (unusual menu items names, an option of choosing a translation in many languages)
 		2. read all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source sode or markdown (unusual elements in the running text)
 
-	* For the remaining pages skimming through the first 10 concordances is enough, checking for the same as above
+	* For the remaining pages skimming through the first 15 concordances is enough, checking for the same as above
 <br/>
 2. Mark the domain as *ok*, *unsure*, *lq* (low quality) or *bad* (column D):
 * if there are **no issues** -> *ok*
@@ -55,6 +55,7 @@ Mark only sites that were checked - content with an empty value in column D is c
 ## Solved dilemmas
 
 * dictionary entries -> *bad* (not textual, foreign language, old varieties of language)
+* older varieties of language (e.g. in old literature) -> *bad* (if most of the text is written like this and the words are very different, otherwise *lq* + note)
 
 
 ## Topics
@@ -63,6 +64,7 @@ Mark only sites that were checked - content with an empty value in column D is c
 * animals
 * fashion (including make-up, beauty)
 * cars
+* community (municipality sites, town sites)
 * construction & real estate
 * culture (books)
 * entertainment (movies, music, events …)
@@ -79,11 +81,13 @@ Mark only sites that were checked - content with an empty value in column D is c
 * animals
 * politics
 * products (various products in an e-shop)
+* public safety (fire-fighting, police, mountain rescue etc.)
 * religion
 * science (chemistry, medicine etc. - but not written in a form of a research article, thesis)
 * love & sex
 * services
 * sports
 * technology (IT)
+* traffic
 * travel
 * well-being (physical, mental health)
