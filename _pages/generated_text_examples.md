@@ -11,3 +11,6 @@ title: Examples of Generated text
 
 3. Example 3:
 > We regularly update the offers of the Dipo jigsaw, so that we can offer you current catalogs with the Dipo jigsaw offer as soon as they are published. It is not necessarily just a Dipo jigsaw offer, you can also find jigsaw offers from other retailers such as Bauhaus, M Tehnika or see great promotions, discounts and sales of goods other customers are looking on our website. Among the most popular flyers these days are discounts on the following goods: water jug, ice bag, vennebyen, garden instantaneous pump, garden lounge kit, recorder.
+
+4. Example 4:
+> From §§ formatDate (version.activeFrom) + "" + formatTime (version.activeFrom) §§ this bus stop will be moved to §§ version.address1 §§ § § version.zip §§ §§ version.cityname §§ Croatia

@@ -19,4 +19,10 @@ title: Examples of Non-textual (lists)
 > What are Chinese prostitutes prostitutes madrid asian rape closed bitch free online porn tratis free amateur peruvian sluts videos completely free dating site in la tour de peilz erotic massage in free chat in limburg Raval prostitutes wismichu teases prostitutes porn mature hd escorts trans a lyon international meeting asnières sur seine Pictures of stereotypes about scratch movies big cock porn videos free spanish porn videos shots
 
 5. Example 5:
-Found in: Keywords Keywords: criminology, police tactics, crimes, organized crime, Slovenia, Austria, Germany, master's theses, Bologna program Published: 16.08.2018; Views: 1619; Downloads: 177 Fulltext (1.21 MB)
+> Found in: Keywords Keywords: criminology, police tactics, crimes, organized crime, Slovenia, Austria, Germany, master's theses, Bologna program Published: 16.08.2018; Views: 1619; Downloads: 177 Fulltext (1.21 MB)
+
+6. Example 6:
+> In addition to two nights with half board, the package also includes: - 1 drink included with meals (water, house wine or non-alcoholic drink) - surprise on arrival - socializing over a cup of homemade tea every day at 17:00 - 1x during stay magnetic therapy by prior arrangement - entry to the Aqua Larix pool or the pool of the Kompas Relaxation Center or the pool of the Špik hotel; - hotel animation (according to the program) - free internet (wi-fi)
+
+7. Example 7:
+> charger 220v for Apple Iphone Ipod USB Original High quality 220V charger for Apple Iphone, Ipad Input voltage 110-220V Output voltage 5V 1A Color White more information
