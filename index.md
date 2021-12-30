@@ -14,7 +14,7 @@ The purpose of task is to detect low quality domains which can be removed before
 
 
 ## What do we check?
-* machine translation (more details on how to recognize it [here](_pages/machine_translation.md))
+* machine translation (more details on how to recognize it [here1](_pages/machine_translation.md)) or [here2](_pages/machine_translation) or [here3](_pages\machine_translation.md) or [here4](https://macocu.github.io/Manual-Checking-Web-Corpora-Guidelines/pages/machine_translation.html) or [here5](pages/machine_translation.md). or [here6](pages/machine_translation).
 * generated text (examples)
 * foreign language
 * lists (no full sentences)
