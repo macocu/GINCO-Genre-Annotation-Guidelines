@@ -10,17 +10,16 @@ For each domain, there is a link to the live site and a link to random triples o
 ## Table of contents
 * [What do we check?](#what-do-we-check)
 * [Steps](#steps)
-* [Examples of Issues](#examples-of-issues)
 * [Topics](#topics)
 * [Solved dilemmas](#solved-dilemmas)
 
 
 ## What do we check?
 * machine translation (more details on how to recognize it [here1](_pages/machine_translation.md)) or [here2](_pages/machine_translation) or [here3](_pages\machine_translation.md) or [here4](https://macocu.github.io/Manual-Checking-Web-Corpora-Guidelines/pages/machine_translation.html) or [here5](pages/machine_translation.md). or [here6](pages/machine_translation).
-* generated text (examples)
+* generated text ([examples](_pages/generated_text_examples.md))
 * foreign language
-* lists (no full sentences)
-* HTML Source Code/Markdown
+* lists (no full sentences) ([examples](_pages/non-textual_examples.md))
+* HTML Source Code/Markdown ([examples](_pages/markdown_examples.md))
 
 ## Steps
 
@@ -49,23 +48,6 @@ Mark only sites that were checked - content with an empty value in column D is c
 * forum
 * promotion of services - all texts promote services of companies
 * promotion of a product - all texts promote products (e-shop)
-
-## Examples of Issues
-
-Table of content:
-* [generated text](#generated-text)
-* [lists](#lists)
-* [HTML Source Code/Markdown](#html-source-code-markdown)
-
-For more details on machine translation, go [here](_pages/machine_translation.md).
-
-### Generated Text
-
-### Lists
-
-### HTML Source Code/Markdown
-
-<img style="width:100%" src="static/img/Genre_Schema_10.2021.png">
 
 ## Topics
 
