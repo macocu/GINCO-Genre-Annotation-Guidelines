@@ -10,12 +10,12 @@ For each domain, there is a link to the live site and a link to random triples o
 ## Table of contents
 * [What do we check?](#what-do-we-check)
 * [Steps](#steps)
-* [Topics](#topics)
 * [Solved dilemmas](#solved-dilemmas)
+* [Topics](#topics)
 
 
 ## What do we check?
-* machine translation (more details on how to recognize it [here1](_pages/machine_translation.md)).
+* machine translation (more details on how to recognize it [here](_pages/machine_translation.md)).
 * generated text ([examples](_pages/generated_text_examples.md))
 * foreign language
 * lists (no full sentences) ([examples](_pages/non-textual_examples.md))
@@ -32,10 +32,11 @@ For each domain, there is a link to the live site and a link to random triples o
 </br>
 2. Mark the domain as *ok*, *unsure*, *lq* (low quality) or *bad* (column D):
 * if there are **no issues** -> *ok*
-* if most of the concordances are **repeated text**, text regarding **cookies** -> *unsure* + add a note *"cookies"* (these examples will be checked again after the deduplication process which will remove the repeated text)
+* if most of the concordances are **repeated text**, text regarding **cookies** ([examples](_pages/cookies_examples.md))-> *unsure* + add a note *"cookies"* or *duplicated* (these examples will be checked again after the deduplication process which will remove the repeated text) (column E)
 * if there are **encoding issues** -> *unsure* + add a note *"encoding"* (these examples will be checked after additional text processing (fixing the text with the Monocleaner tool))
-* if there are **some issues**, but the majority of page is okay -> *lq* + add a note, which issue is present. For the top 20 domains, if the issue is HTML Source Code or Markdown, add a description what can be done, e.g. "remove \</br> tags", "remove all pages that have "diff" in the URL name"
-* if there are **mostly issues** -> *bad* + add a note what is the issue
+* if there are issues with **HTML source code/markdown** --> *unsure* + add a description what can be done, e.g. "remove \</br> tags", "remove all pages with "&diff=" or "action=edit" in the URL" (column F)
+* if there are **some issues**, but the majority of page is okay -> *lq* + add a note, which issue is present (column E)
+* if there are **mostly issues** -> *bad* + add a note what is the issue (column E)
 </br>
 3. (Optional) Add information on topic if you think that the whole domain is dedicated to just one topic:
 * choose from the [proposed topic labels](#topics), if there are additional broad topics present in multiple domains, you can add them
@@ -46,8 +47,15 @@ For each domain, there is a link to the live site and a link to random triples o
 * forum
 * promotion of services - all texts promote services of companies
 * promotion of a product - all texts promote products (e-shop)
+</br>
+5. (Optional) If the language on the page seems **unedited** (typos, very informal language etc.), you can mark that by *Y* in column I
 
 Mark only sites that were checked - content with an empty value in column D is considered unchecked and will be kept in the corpus.
+
+## Solved dilemmas
+
+* dictionary entries -> *bad* (not textual, foreign language, old varieties of language)
+
 
 ## Topics
 
@@ -79,8 +87,3 @@ Mark only sites that were checked - content with an empty value in column D is c
 * technology (IT)
 * travel
 * well-being (physical, mental health)
-
-
-## Solved dilemmas
-
-* dictionary entries -> ok
