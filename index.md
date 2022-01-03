@@ -3,9 +3,9 @@ layout: entry
 title: Guidelines for Manual Checking of the Web Corpora
 ---
 
-The purpose of task is to detect low quality domains which can be removed before we continue to additional processing of the corpora.
+The purpose of task is to detect low quality domains which can be removed before we continue with additional processing of the corpora.
 
-For each domain, there is a link to the live site and a link to random triples of sentences in context to see the actual content of the site in Sketch Engine. We thoroughly check just the top 300 to 1500 sites. Other, smaller sites are checked only in the case when their name is suspicious, usually not in the national TLD or containing suspicious words, e.g. "cz.flirtydolls.com".
+For each domain, there is a link to the live site and a link to random triples of sentences in context to see the actual content of the sites in Sketch Engine. We thoroughly check just the top 300 to 1500 domains. Other, smaller domains are checked only in the case when their name is suspicious, usually not in the national TLD or containing suspicious words, e.g. "cz.flirtydolls.com".
 
 ## Table of contents
 * [What do we check?](#what-do-we-check)
@@ -32,13 +32,13 @@ For each domain, there is a link to the live site and a link to random triples o
 <br/>
 2. Mark the domain as *ok*, *unsure*, *lq* (low quality), *bad* or *issue* (column D):
 * if there are **no issues** -> *ok*
-* if most of the concordances are **repeated text** (such as shipping conditions), text regarding **cookies** ([examples](_pages/cookies_examples.md)) -> *unsure* + add a note *"cookies"* or *duplicated* (these examples will need to be checked again after the deduplication process which will remove the repeated text) (column E)
+* if most of the concordances are **repeated text** (such as shipping conditions), text regarding **cookies** ([examples](_pages/cookies_examples.md)) -> *unsure* + add a note *"cookies"* or *"duplicated"* (these examples need to be checked again after the deduplication process which will remove the repeated text) (column E)
 * if there are **encoding issues** -> *unsure* + add a note *"encoding"* (these examples will be checked after additional text processing (fixing the text with the Monocleaner tool))
 * if there are issues with **HTML source code/markdown** --> *unsure* + add a description what can be done, e.g. "remove \<br/> tags", "remove all pages with "&diff=" or "action=edit" in the URL" (column F)
 * if there are **some issues**, but the majority of page is okay -> *lq* + add a note, which issue is present (column E)
-* if the text could be **machine translation**, but you are not sure -> *lq* + not "possible machine translation" (column E)
+* if the text could be **machine translation**, but you are not sure -> *lq* + note "possible machine translation" (column E)
 * if there are **mostly issues**, i.e. more than half of the text contains issues / at least 2 concordances contain machine translation -> *bad* + add a note what is the issue (column E)
-* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena
+* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open an issue on the GitHub: https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues
 <br/>
 3. (Optional) Add information on topic (if there are multiple topics, leave empty):
 * choose from the [proposed topic labels](#topics), if there are additional broad topics present in multiple domains, you can add them
@@ -49,12 +49,13 @@ For each domain, there is a link to the live site and a link to random triples o
 * recipe
 * forum
 * promotion of services - all texts promote services of companies
-* promotion of a product - all texts promote products (e-shop)
+* e-shop
 * research article (abstracts, theses, research articles)
+* opinion (blogs, petitions - author's opinion is very obvious, visible)
 * literature (prose, poetry, drama)
-* small ads
+* small ads (advertisement websites where users post their ads)
 <br/>
-5. (Optional) If the language on the page seems **unedited** (typos, very informal language etc.), you can mark that by *Y* in column I
+5. (Optional) If the language on the page seems **unedited** (typos, very informal language etc.), mark that by *Y* in column I
 
 Mark only sites that were checked - content with an empty value in column D is considered unchecked and will be kept in the corpus.
 
@@ -76,12 +77,12 @@ Mark only sites that were checked - content with an empty value in column D is c
 * engineering (machines, electroengineering etc.)
 * environment
 * entertainment (movies, music, events …)
-* family
+* family (includes all topics/products connected to children)
 * fashion (including make-up, beauty)
 * food & drinks
 * gambling & casinos
-* history
-* hobbies (hiking, shooting)
+* history (includes biographies)
+* hobbies (shooting, gaming, railway enthusiasts etc. - sport hobbies are included in "sport")
 * home & garden
 * law
 * love & sex
@@ -89,9 +90,9 @@ Mark only sites that were checked - content with an empty value in column D is c
 * public safety (fire-fighting, police, mountain rescue etc.)
 * religion
 * science (chemistry, medicine etc. - but not written in a form of a research article, thesis)
-* services
-* sports
+* services (includes job offers)
+* sport
 * technology (IT)
 * traffic
 * travel
-* well-being (physical, mental health)
+* well-being (physical, mental health; includes diets, fitness, wellness)
