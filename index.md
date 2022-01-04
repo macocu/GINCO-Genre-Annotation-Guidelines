@@ -24,21 +24,21 @@ For each domain, there is a link to the live site and a link to random triples o
 ## Steps
 
 1. Read the examples from the domain:
-	* The top 20 pages should be thoroughly checked:
+	* The top 20 domains should be thoroughly checked:
 		1. open the live website (column B), check whether it looks like it's a machine translation (unusual menu items names, an option of choosing a translation in many languages)
 		2. read all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source sode or markdown (unusual elements in the running text)
 
-	* For the remaining pages skimming through the first 15 concordances is enough, checking for the same as above
+	* For the remaining domains skimming through the first 15 concordances is enough, checking for the same as above
 <br/>
 2. Mark the domain as *ok*, *unsure*, *lq* (low quality), *bad* or *issue* (column D):
 * if there are **no issues** -> *ok*
 * if most of the concordances are **repeated text** (such as shipping conditions), text regarding **cookies** ([examples](_pages/cookies_examples.md)) -> *unsure* + add a note *"cookies"* or *"duplicated"* (these examples need to be checked again after the deduplication process which will remove the repeated text) (column E)
 * if there are **encoding issues** -> *unsure* + add a note *"encoding"* (these examples will be checked after additional text processing (fixing the text with the Monocleaner tool))
 * if there are issues with **HTML source code/markdown** --> *unsure* + add a description what can be done, e.g. "remove \<br/> tags", "remove all pages with "&diff=" or "action=edit" in the URL" (column F)
-* if there are **some issues**, but the majority of page is okay -> *lq* + add a note, which issue is present (column E)
+* if there are **some issues**, but the majority of page is okay -> *lq* + add a note which issue is present (column E)
 * if the text could be **machine translation**, but you are not sure -> *lq* + note "possible machine translation" (column E)
-* if there are **mostly issues**, i.e. more than half of the text contains issues / at least 2 concordances contain machine translation -> *bad* + add a note what is the issue (column E)
-* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open an issue on the GitHub: https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues
+* if there are **mostly issues**, i.e. more than half of the text contains issues / at least 2 concordances contain machine translation (you feel it is highly likely that the whole domain is machine translated) -> *bad* + add a note what is the issue (column E)
+* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open (an issue)[https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues] on the GitHub 
 <br/>
 3. (Optional) Add information on topic (if there are multiple topics, leave empty):
 * choose from the [proposed topic labels](#topics), if there are additional broad topics present in multiple domains, you can add them
@@ -49,13 +49,13 @@ For each domain, there is a link to the live site and a link to random triples o
 * recipe
 * forum
 * promotion of services - all texts promote services of companies
-* e-shop
+* e-shop (includes platforms that provide accomodation (e.g. Booking/AirBnB-like content))
 * research article (abstracts, theses, research articles)
 * opinion (blogs, petitions - author's opinion is very obvious, visible)
 * literature (prose, poetry, drama)
 * small ads (advertisement websites where users post their ads)
 <br/>
-5. (Optional) If the language on the page seems **unedited** (typos, very informal language etc.), mark that by *Y* in column I
+5. (Optional) If the language on the page seems **unedited** (many typos) or **non-standard** (very informal language, such as in forums), mark that by *Y* in column I
 
 Mark only sites that were checked - content with an empty value in column D is considered unchecked and will be kept in the corpus.
 
@@ -69,17 +69,17 @@ Mark only sites that were checked - content with an empty value in column D is c
 
 * academic (research articles, theses)
 * animals
+* beauty (including make-up, fashion, clothes, fabrics etc.)
 * business (includes economy and finance)
 * cars
 * community (municipality sites, town sites)
 * construction & real estate
 * culture (books, theatre, opera)
-* engineering (machines, electroengineering etc.)
+* engineering (machines, machine parts, electroengineering etc.)
 * environment
 * entertainment (movies, music, events …)
 * family (includes all topics/products connected to children)
-* fashion (including make-up, beauty)
-* food & drinks
+* food & drinks (includes products involved in food preparation, e.g. dishes)
 * gambling & casinos
 * history (includes biographies)
 * hobbies (shooting, gaming, railway enthusiasts etc. - sport hobbies are included in "sport")
@@ -91,8 +91,8 @@ Mark only sites that were checked - content with an empty value in column D is c
 * religion
 * science (chemistry, medicine etc. - but not written in a form of a research article, thesis)
 * services (includes job offers)
-* sport
-* technology (IT)
+* sport (includes sport hobbies, e.g. hiking, yacting, cycling)
+* technology (IT, programming, computers, phones, etc.)
 * traffic
 * travel
 * well-being (physical, mental health; includes diets, fitness, wellness)
