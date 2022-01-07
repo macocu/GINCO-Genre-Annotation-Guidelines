@@ -5,7 +5,7 @@ title: Guidelines for Manual Checking of the Web Corpora
 
 The purpose of task is to detect low quality domains which can be removed before we continue with additional processing of the corpora.
 
-For each domain, there is a link to the live site and a link to random triples of sentences in context to see the actual content of the sites in Sketch Engine. We thoroughly check just the top 300 to 1500 domains. Other, smaller domains are checked only in the case when their name is suspicious, usually not in the national TLD or containing suspicious words, e.g. "cz.flirtydolls.com".
+For each domain, there is a link to the live site and a link to random triples of sentences in context to see the actual content of the sites in Sketch Engine. We thoroughly check just the top 300 domains. Other, smaller domains (up to 1200 additional domains) are checked only in the case when their name is suspicious.
 
 ## Table of contents
 * [What do we check?](#what-do-we-check)
@@ -26,9 +26,15 @@ For each domain, there is a link to the live site and a link to random triples o
 1. Read the examples from the domain:
 	* The top 20 domains should be thoroughly checked:
 		1. open the live website (column B), check whether it looks like it's a machine translation (unusual menu items names, an option of choosing a translation in many languages)
-		2. read all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source sode or markdown (unusual elements in the running text)
+		2. read all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source code or markdown (unusual elements in the running text)
 
-	* For the remaining domains skimming through the first 15 concordances is enough, checking for the same as above
+	* For the remaining first 350 domains skimming through the first 15 concordances is enough, checking for the same as above
+	* After checking the first 350 domains, just go through the URLs (column B) of the next 1200 domains (so that 1500 domains are checked) and check only those that seem highly suspicious, e. g.:
+		* they have "porn" or other unusual words in the name
+		* they do not use the national domain - especially if they use the `.eu` domain or a domain of a country with a closely related language
+		* the domain name begins with the language code (it is very likely that the domain is machine translated)
+		* the URL link is not clickable
+
 <br/>
 2. Mark the domain as *ok*, *unsure*, *lq* (low quality), *bad* or *issue* (column D):
 * if there are **no issues** -> *ok*
@@ -38,10 +44,10 @@ For each domain, there is a link to the live site and a link to random triples o
 * if there are **some issues**, but the majority of page is okay -> *lq* + add a note which issue is present (column E)
 * if the text could be **machine translation**, but you are not sure -> *lq* + note "possible machine translation" (column E)
 * if there are **mostly issues**, i.e. more than half of the text contains issues / at least 2 concordances contain machine translation (you feel it is highly likely that the whole domain is machine translated) -> *bad* + add a note what is the issue (column E)
-* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open (an issue)[https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues] on the GitHub 
+* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open [an issue](https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues) on the GitHub 
 <br/>
-3. (Optional) Add information on topic (if there are multiple topics, leave empty):
-* choose from the [proposed topic labels](#topics), if there are additional broad topics present in multiple domains, you can add them
+3. (Optional) Add information on topic (if there are multiple topics or you are not sure, leave empty, do not spend much time deciding on the topic):
+* choose from the [proposed topic labels](#topics), if you feel that there are additional broad topics present in multiple domains, you can use additional topics.
 <br/>
 4. (Optional) Add information on genre if all concordances are in the same genre. Choose from the following labels (if none is applicable, leave empty):
 * news portal
@@ -69,11 +75,12 @@ Mark only sites that were checked - content with an empty value in column D is c
 
 * academic (research articles, theses)
 * animals
-* beauty (including make-up, fashion, clothes, fabrics etc.)
+* astrology
+* beauty (including make-up, fashion, clothes, shoes, fabrics etc.)
 * business (includes economy and finance)
 * cars
 * community (municipality sites, town sites)
-* construction & real estate
+* construction & real estate (includes arhitecture and urbanism)
 * culture (books, theatre, opera)
 * engineering (machines, machine parts, electroengineering etc.)
 * environment
@@ -93,6 +100,6 @@ Mark only sites that were checked - content with an empty value in column D is c
 * services (includes job offers)
 * sport (includes sport hobbies, e.g. hiking, yacting, cycling)
 * technology (IT, programming, computers, phones, etc.)
-* traffic
+* traffic (includes transport)
 * travel
 * well-being (physical, mental health; includes diets, fitness, wellness)
