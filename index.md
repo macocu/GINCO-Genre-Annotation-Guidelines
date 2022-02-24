@@ -5,7 +5,7 @@ title: Guidelines for Manual Checking of the Web Corpora
 
 The purpose of task is to detect low quality domains which can be removed before we continue with additional processing of the corpora.
 
-For each domain, there is a link to the live site and a link to random triples of sentences in context to see the actual content of the sites in Sketch Engine. We thoroughly check just the top 300 domains. Other, smaller domains (up to 1200 additional domains) are checked only in the case when their name is suspicious.
+For each domain, there is a link to the live site and a link to random triples of sentences in context to see the actual content of the sites in Sketch Engine. We thoroughly check just the top 350 domains. Other, smaller domains (up to 1200 additional domains) are checked only in the case when their name is suspicious.
 
 ## Table of contents
 * [What do we check?](#what-do-we-check)
@@ -43,7 +43,7 @@ For each domain, there is a link to the live site and a link to random triples o
 * if there are issues with **HTML source code/markdown** --> *unsure* + add a description what can be done, e.g. "remove \<br/> tags", "remove all pages with "&diff=" or "action=edit" in the URL" (column F)
 * if there are **some issues**, but the majority of page is okay -> *lq* + add a note which issue is present (column E)
 * if the text could be **machine translation**, but you are not sure -> *lq* + note "possible machine translation" (column E)
-* if there are **mostly issues**, i.e. more than half of the text contains issues / at least 2 concordances contain machine translation (you feel it is highly likely that the whole domain is machine translated) -> *bad* + add a note what is the issue (column E)
+* if there are **mostly issues**, i.e. more than half of the concordances contain issues / at least 2 concordances contain machine translation (you feel it is highly likely that the whole domain is machine translated) -> *bad* + add a note what is the issue (column E)
 * if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open [an issue](https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues) on the GitHub 
 <br/>
 3. (Optional) Add information on topic (if there are multiple topics or you are not sure, leave empty, do not spend much time deciding on the topic):
