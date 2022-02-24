@@ -26,7 +26,7 @@ For each domain, there is a link to the live site and a link to random triples o
 1. Read the examples from the domain:
 	* The top 20 domains should be thoroughly checked:
 		1. open the live website (column B), check whether it looks like it's a machine translation (unusual menu items names, an option of choosing a translation in many languages)
-		2. read all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source code or markdown (unusual elements in the running text)
+		2. skim through all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source code or markdown (unusual elements in the running text)
 
 	* For the remaining first 350 domains skimming through the first 15 concordances is enough, checking for the same as above
 	* After checking the first 350 domains, just go through the URLs (column B) of the next 1200 domains (so that 1500 domains are checked) and check only those that seem highly suspicious, e. g.:
@@ -35,40 +35,40 @@ For each domain, there is a link to the live site and a link to random triples o
 		* the domain name begins with the language code (it is very likely that the domain is machine translated)
 		* the URL link is not clickable
 
-<br/>
-2. Mark the domain as *ok*, *unsure*, *lq* (low quality), *bad* or *issue* (column D):
-* if there are **no issues** -> *ok*
-* if most of the concordances are **repeated text** (such as shipping conditions), text regarding **cookies** ([examples](_pages/cookies_examples.md)) -> *unsure* + add a note *"cookies"* or *"duplicated"* (these examples need to be checked again after the deduplication process which will remove the repeated text) (column E)
-* if there are **encoding issues** -> *unsure* + add a note *"encoding"* (these examples will be checked after additional text processing (fixing the text with the Monocleaner tool))
-* if there are issues with **HTML source code/markdown** --> *unsure* + add a description what can be done, e.g. "remove \<br/> tags", "remove all pages with "&diff=" or "action=edit" in the URL" (column F)
-* if there are **some issues**, but the majority of page is okay -> *lq* + add a note which issue is present (column E)
-* if the text could be **machine translation**, but you are not sure -> *lq* + note "possible machine translation" (column E)
-* if there are **mostly issues**, i.e. more than half of the concordances contain issues / at least 2 concordances contain machine translation (you feel it is highly likely that the whole domain is machine translated) -> *bad* + add a note what is the issue (column E)
-* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open [an issue](https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues) on the GitHub 
-<br/>
+2. Mark the domain as *ok*, *check*, *lq* (low quality), *bad* or *issue* (column D):
+	* if there are **no issues** -> *ok*
+	* if there are **some issues**, but the majority of page is okay -> *lq* + add a note which issue is present (column E)
+	* if the text could be **machine translation**, but you are not sure -> *lq* + note "possible machine translation" (column E)
+	* if there are **mostly issues**, i.e. more than half of the concordances contain issues -> *bad* + add a note what is the issue (column E)
+	* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open [an issue](https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues) on the GitHub
+	* *check*:
+		* if most of the concordances are **repeated text** (such as shipping conditions), text regarding **cookies** ([examples](_pages/cookies_examples.md)) -> *check* + add a note *"duplicated"* (column E)
+		* if there are **encoding issues** present in concordances -> *check* + add a note *"encoding"* (column E)
+		* if there are issues with **HTML source code/markdown** --> *check* + add a note *"markdown"* (column E)
+
 3. (Optional) Add information on topic (if there are multiple topics or you are not sure, leave empty, do not spend much time deciding on the topic):
-* choose from the [proposed topic labels](#topics), if you feel that there are additional broad topics present in multiple domains, you can use additional topics.
-<br/>
+	* choose from the [proposed topic labels](#topics), if you feel that there are additional broad topics present in multiple domains, you can use additional topics.
+
 4. (Optional) Add information on genre if all concordances are in the same genre. Choose from the following labels (if none is applicable, leave empty):
-* news portal
-* legal/regulation - legal texts
-* recipe
-* forum
-* promotion of services - all texts promote services of companies
-* e-shop (includes platforms that provide accomodation (e.g. Booking/AirBnB-like content))
-* research article (abstracts, theses, research articles)
-* opinion (blogs, petitions - author's opinion is very obvious, visible)
-* literature (prose, poetry, drama)
-* small ads (advertisement websites where users post their ads)
-<br/>
-5. (Optional) If the language on the page seems **unedited** (many typos) or **non-standard** (very informal language, such as in forums), mark that by *Y* in column I
+	* news portal
+	* legal/regulation - legal texts
+	* recipe
+	* forum
+	* promotion of services - all texts promote services of companies
+	* e-shop (includes platforms that provide accomodation (e.g. Booking/AirBnB-like content))
+	* research article (abstracts, theses, research articles)
+	* opinion (blogs, petitions - author's opinion is very obvious, visible)
+	* literature (prose, poetry, drama)
+	* small ads (advertisement websites where users post their ads)
+
+5. (Optional) If the language on the page seems **unedited** (many typos) or **non-standard** (very informal language, such as in forums, includes old Slovene), mark that by *Y* in column I
 
 Mark only sites that were checked - content with an empty value in column D is considered unchecked and will be kept in the corpus.
 
 ## Solved dilemmas
 
-* dictionary entries -> *bad* (not textual, foreign language, old varieties of language)
-* older varieties of language (e.g. in old literature) -> *bad* (if most of the text is written like this and the words are very different, otherwise *lq* + note)
+* dictionary entries -> *lq* + add a note *"dictionary"* in column E, if there is more foreign language than Slovene -> *bad*
+* older varieties of language (e.g. in old literature) -> *okay*, mark non-standardness of text by *Y* in column I
 
 
 ## Topics
