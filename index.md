@@ -3,7 +3,7 @@ layout: entry
 title: Guidelines for Manual Checking of the Web Corpora
 ---
 
-The purpose of task is to detect low quality domains which can be removed before we continue with additional processing of the corpora.
+The purpose of task is to detect low quality domains which can be removed before we continue with additional processing of the corpora. We search for *bad* domains which contain so few full sentences, written in the target language, that is it better to remove the whole domain than try to filter out just problematic parts. Such examples are websites that are entirely machine translated, entirely in foreign language or contain no full sentences (just lists). If the domain includes some problematic texts, but also some okay content, such domain should be marked as *low-quality* (*lq*) instead of *bad*, as we want to keep as much text of good quality as possible.
 
 For each domain, there is a link to the live site and a link to random triples of sentences in context to see the actual content of the sites in Sketch Engine. We thoroughly check just the top 350 domains. Other, smaller domains (up to 1200 additional domains) are checked only in the case when their name is suspicious.
 
@@ -15,7 +15,7 @@ For each domain, there is a link to the live site and a link to random triples o
 
 
 ## What do we check?
-* machine translation (more details on how to recognize it [here](_pages/machine_translation.md)).
+* (obvious) machine translation (more details on how to recognize it [here](_pages/machine_translation.md)).
 * generated text ([examples](_pages/generated_text_examples.md))
 * foreign language
 * lists (no full sentences) ([examples](_pages/non-textual_examples.md))
@@ -25,10 +25,10 @@ For each domain, there is a link to the live site and a link to random triples o
 
 1. Read the examples from the domain:
 	* The top 20 domains should be thoroughly checked:
-		1. open the live website (column B), check whether it looks like it's a machine translation (unusual menu items names, an option of choosing a translation in many languages)
-		2. skim through all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source code or markdown (unusual elements in the running text)
+		*skim through all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source code or markdown (unusual elements in the running text)
 
 	* For the remaining first 350 domains skimming through the first 15 concordances is enough, checking for the same as above
+
 	* After checking the first 350 domains, just go through the URLs (column B) of the next 1200 domains (so that 1500 domains are checked) and check only those that seem highly suspicious, e. g.:
 		* they have "porn" or other unusual words in the name
 		* they do not use the national domain - especially if they use the `.eu` domain or a domain of a country with a closely related language
@@ -99,7 +99,7 @@ Mark only sites that were checked - content with an empty value in column D is c
 * science (chemistry, medicine etc. - but not written in a form of a research article, thesis)
 * services (includes job offers)
 * sport (includes sport hobbies, e.g. hiking, yacting, cycling)
-* technology (IT, programming, computers, phones, etc.)
+* technology (IT, programming, computers, phones, cameras, etc.)
 * traffic (includes transport)
 * travel
 * well-being (physical, mental health; includes diets, fitness, wellness)
