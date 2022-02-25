@@ -39,7 +39,7 @@ For each domain, there is a link to the live site and a link to random triples o
 	* if there are **no issues** -> *ok*
 	* if there are **some issues**, but the majority of page is okay -> *lq* + add a note which issue is present (column E)
 	* if the text could be **machine translation**, but you are not sure -> *lq* + note "possible machine translation" (column E)
-	* if there are **mostly issues**, i.e. more than half of the concordances contain issues -> *bad* + add a note what is the issue (column E)
+	* if there are **mostly issues**, i.e. most of the concordances contain issues -> *bad* + add a note what is the issue (column E)
 	* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open [an issue](https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues) on the GitHub
 	* *check*:
 		* if most of the concordances are **repeated text** (such as shipping conditions), text regarding **cookies** ([examples](_pages/cookies_examples.md)) -> *check* + add a note *"duplicated"* (column E)
@@ -61,7 +61,7 @@ For each domain, there is a link to the live site and a link to random triples o
 	* literature (prose, poetry, drama)
 	* small ads (advertisement websites where users post their ads)
 
-5. (Optional) If the language on the page seems **unedited** (many typos) or **non-standard** (very informal language, such as in forums, includes old Slovene), mark that by *Y* in column I
+5. (Optional) If the language on the page seems **unedited** (many typos) or **non-standard** (very informal language, such as in forums, includes historic language), mark that by *Y* in column I
 
 Mark only sites that were checked - content with an empty value in column D is considered unchecked and will be kept in the corpus.
 
