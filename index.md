@@ -3,9 +3,9 @@ layout: entry
 title: Guidelines for Manual Checking of the Web Corpora
 ---
 
-The purpose of task is to detect low quality domains which can be removed before we continue with additional processing of the corpora. We search for *bad* domains which contain so few full sentences, written in the target language, that is it better to remove the whole domain than try to filter out just problematic parts. Such examples are websites that are entirely machine translated, entirely in foreign language or contain no full sentences (just lists). If the domain includes some problematic texts, but also some okay content, such domain should be marked as *low-quality* (*lq*) instead of *bad*, as we want to keep as much text of good quality as possible.
+The purpose of this task is to detect low quality domains which can be removed before we continue with additional processing of the corpora. We search for *bad* domains which contain so few good-quality sentences of the target language that is it better to remove the whole domain than try to filter out just problematic parts. Such examples are websites that are entirely machine translated, entirely in foreign language or contain no full sentences (just lists). If the domain includes some problematic texts, but also some good-quality content, such domain should be marked as *low-quality* (*lq*) instead of *bad*, as we want to keep as much text of good quality as possible.
 
-For each domain, there is a link to the live site and a link to random triples of sentences in context to see the actual content of the sites in Sketch Engine. We thoroughly check just the top 350 domains. Other, smaller domains (up to 1200 additional domains) are checked only in the case when their name is suspicious.
+For each domain, there is a link to the live site and a link to random triples of sentences (known as concordances) in context to see the actual content of the sites in Sketch Engine. We thoroughly check just the top 350 domains. Other, smaller domains (up to 1200 additional domains) are checked only in the case when their name is suspicious.
 
 ## Table of contents
 * [What do we check?](#what-do-we-check)
@@ -19,13 +19,12 @@ For each domain, there is a link to the live site and a link to random triples o
 * generated text ([examples](_pages/generated_text_examples.md))
 * foreign language
 * lists (no full sentences) ([examples](_pages/non-textual_examples.md))
-* HTML Source Code/Markdown ([examples](_pages/markdown_examples.md))
 
 ## Steps
 
 1. Read the examples from the domain:
 	* The top 20 domains should be thoroughly checked:
-		*skim through all of the concordances in the Sketch Engine (column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source code or markdown (unusual elements in the running text)
+		* skim through all of the concordances in the Sketch Engine (link in the column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source code or markdown (unusual elements in the running text)
 
 	* For the remaining first 350 domains skimming through the first 15 concordances is enough, checking for the same as above
 
@@ -44,7 +43,7 @@ For each domain, there is a link to the live site and a link to random triples o
 	* *check*:
 		* if most of the concordances are **repeated text** (such as shipping conditions), text regarding **cookies** ([examples](_pages/cookies_examples.md)) -> *check* + add a note *"duplicated"* (column E)
 		* if there are **encoding issues** present in concordances -> *check* + add a note *"encoding"* (column E)
-		* if there are issues with **HTML source code/markdown** --> *check* + add a note *"markdown"* (column E)
+		* if there are issues with **HTML source code/markdown** ([examples](_pages/markdown_examples.md)) --> *check* + add a note *"markdown"* (column E)
 
 3. (Optional) Add information on topic (if there are multiple topics or you are not sure, leave empty, do not spend much time deciding on the topic):
 	* choose from the [proposed topic labels](#topics), if you feel that there are additional broad topics present in multiple domains, you can use additional topics.
@@ -61,7 +60,7 @@ For each domain, there is a link to the live site and a link to random triples o
 	* literature (prose, poetry, drama)
 	* small ads (advertisement websites where users post their ads)
 
-5. (Optional) If the language on the page seems **unedited** (many typos) or **non-standard** (very informal language, such as in forums, includes historic language), mark that by *Y* in column I
+5. (Optional) If the language on the page seems **unedited** (many typos) or **non-standard** (very informal language, such as in forums, or historic language), mark that by *Y* in column I
 
 Mark only sites that were checked - content with an empty value in column D is considered unchecked and will be kept in the corpus.
 
