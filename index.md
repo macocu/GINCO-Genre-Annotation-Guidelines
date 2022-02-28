@@ -93,7 +93,7 @@ Mark only sites that were checked - content with an empty value in column D is c
 * law
 * love & sex
 * politics
-* public safety (fire-fighting, police, mountain rescue etc.)
+* public safety (fire-fighting, police, army, mountain rescue etc.)
 * religion
 * science (chemistry, medicine etc. - but not written in a form of a research article, thesis)
 * services (includes job offers)
