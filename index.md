@@ -24,29 +24,29 @@ For each domain, there is a link to the live site and a link to random triples o
 
 1. Read the examples from the domain:
 	* The top 20 domains should be thoroughly checked:
-		* skim through all of the concordances in the Sketch Engine (link in the column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source code or markdown (unusual elements in the running text)
+		* skim through all of the concordances in the Sketch Engine (link in the column C), looking for machine translation, generated text, foreign language, lists (no full sentences), HTML source code or markdown (unusual elements in the running text - [examples](_pages/markdown_examples.md))
 
 	* For the remaining first 350 domains skimming through the first 15 concordances is enough, checking for the same as above
 
 	* After checking the first 350 domains, just go through the URLs (column B) of the next 1200 domains (so that 1500 domains are checked) and check only those that seem highly suspicious, e. g.:
 		* they have "porn" or other unusual words in the name
-		* they do not use the national domain - especially if they use the `.eu` domain or a domain of a country with a closely related language
-		* the domain name begins with the language code (it is very likely that the domain is machine translated)
+		* they do not use the national domain, e.g. ".si" - especially if they use the `.eu` domain or a domain of a country with a closely related language
+		* the domain name begins with the language code, e.g. "sl.toolbox-site.com" (it is very likely that the domain is machine translated)
 		* the URL link is not clickable
 
 2. Mark the domain as *ok*, *check*, *lq* (low quality), *bad* or *issue* (column D):
 	* if there are **no issues** -> *ok*
 	* if there are **some issues**, but the majority of page is okay -> *lq* + add a note which issue is present (column E)
-	* if the text could be **machine translation**, but you are not sure -> *lq* + note "possible machine translation" (column E)
-	* if there are **mostly issues**, i.e. most of the concordances contain issues -> *bad* + add a note what is the issue (column E)
+	* if the text could be **machine translation**, but it is not very obvious (it could be a very good machine translation) -> *lq* + note "possible machine translation" (column E)
+	* if there are **mostly issues**, i.e. most of the concordances contain issues (foreign language, machine translation, non-textual etc.), there is so little good-quality text that the whole domain should be discarded from the corpus -> *bad* + add a note what is the issue (column E)
 	* if you encountered a phenomena not described in the guidelines and don't know what to do -> *issue* + add a note describing the phenomena, and open [an issue](https://github.com/macocu/Manual-Checking-Web-Corpora-Guidelines/issues) on the GitHub
 	* *check*:
 		* if most of the concordances are **repeated text** (such as shipping conditions), text regarding **cookies** ([examples](_pages/cookies_examples.md)) -> *check* + add a note *"duplicated"* (column E)
-		* if there are **encoding issues** present in concordances -> *check* + add a note *"encoding"* (column E)
-		* if there are issues with **HTML source code/markdown** ([examples](_pages/markdown_examples.md)) --> *check* + add a note *"markdown"* (column E)
+		* if there are **encoding issues** (issues with special characters, such as š, č, ć) present in concordances -> *check* + add a note *"encoding"* (column E)
+		* if there are issues with **HTML source code/markdown** --> *check* + add a note *"markdown"* (column E)
 
 3. (Optional) Add information on topic (if there are multiple topics or you are not sure, leave empty, do not spend much time deciding on the topic):
-	* choose from the [proposed topic labels](#topics), if you feel that there are additional broad topics present in multiple domains, you can use additional topics.
+	* choose from the [proposed topic labels](#topics), you can extend the list of topics with other common broad topics if needed.
 
 4. (Optional) Add information on genre if all concordances are in the same genre. Choose from the following labels (if none is applicable, leave empty):
 	* news portal
@@ -66,8 +66,8 @@ Mark only sites that were checked - content with an empty value in column D is c
 
 ## Solved dilemmas
 
-* dictionary entries -> *lq* + add a note *"dictionary"* in column E, if there is more foreign language than Slovene -> *bad*
-* older varieties of language (e.g. in old literature) -> *okay*, mark non-standardness of text by *Y* in column I
+* dictionary entries -> *ok*, if most sentences are in a foreign language -> *bad*
+* older varieties of language (e.g. in old literature) -> *ok*, mark non-standardness of text by *Y* in column I
 
 
 ## Topics
@@ -95,10 +95,10 @@ Mark only sites that were checked - content with an empty value in column D is c
 * politics
 * public safety (fire-fighting, police, army, mountain rescue etc.)
 * religion
-* science (chemistry, medicine etc. - but not written in a form of a research article, thesis)
+* science (chemistry, medicine etc. - but if it is written in a form of a research article, thesis, the topic is academic)
 * services (includes job offers)
 * sport (includes sport hobbies, e.g. hiking, yacting, cycling)
 * technology (IT, programming, computers, phones, cameras, etc.)
 * traffic (includes transport)
 * travel
-* well-being (physical, mental health; includes diets, fitness, wellness)
+* well-being (physical, mental health; includes diets, fitness, wellness, classic and alternative medicine)

@@ -3,6 +3,8 @@ layout: entry
 title: Examples of Non-textual (lists)
 ---
 
+With "non-textual", we mean paragraphs which do not contain full sentences, but just an enumeration of words, lists of titles and similar, usually with very little verbs.
+
 Example 1
 
 > Deep basket: • Possibility of turning in the direction of travel or vice versa • The frame is plastic • Cradle function • Soft removable cushion • PVC leather handle • Cover • Folding roof with window • Window in a deep basket contains a net • Easy and fast system of attachment and removal Sports part: • Possibility of installation in the direction of travel and vice versa • Adjustable back cover (3 levels) • 5-point seat belt • Leg protection
