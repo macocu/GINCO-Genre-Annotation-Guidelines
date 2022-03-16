@@ -3,7 +3,7 @@ layout: entry
 title: Guidelines for Manual Checking of the Web Corpora
 ---
 
-The purpose of this task is to detect low quality domains which can be removed before we continue with additional processing of the corpora. We search for *bad* domains which contain so few good-quality sentences of the target language that is it better to remove the whole domain than try to filter out just problematic parts. Such examples are websites that are entirely machine translated, entirely in foreign language or contain no full sentences (just lists). If the domain includes some problematic texts, but also some good-quality content, such domain should be marked as *low-quality* (*lq*) instead of *bad*, as we want to keep as much text of good quality as possible.
+The purpose of this task is to detect low quality domains which can be removed before we continue with additional processing of the corpora. We search for *bad* domains which contain so few good-quality sentences of the target language that is it better to remove the whole domain than try to filter out just problematic parts. Such examples are websites that are entirely machine translated or entirely in foreign language. If the domain includes some problematic texts, but also some good-quality content, such domain should be marked as *low-quality* (*lq*) instead of *bad*, as we want to keep as much text of good quality as possible. For more details on when to mark the domain *bad*, see the section [Additional Details](#additional-details).
 
 For each domain, there is a link to the live site and a link to random triples of sentences (known as concordances) in context to see the actual content of the sites in Sketch Engine. We thoroughly check just the top 350 domains. Other, smaller domains (up to 1200 additional domains) are checked only in the case when their name is suspicious.
 
@@ -12,6 +12,7 @@ For each domain, there is a link to the live site and a link to random triples o
 * [Steps](#steps)
 * [Solved dilemmas](#solved-dilemmas)
 * [Topics](#topics)
+* [Additional Details](#additional-details)
 
 
 ## What do we check?
@@ -102,3 +103,21 @@ Mark only sites that were checked - content with an empty value in column D is c
 * traffic (includes transport)
 * travel
 * well-being (physical, mental health; includes diets, fitness, wellness, classic and alternative medicine)
+
+## Additional Details
+
+### Issues and how we address them with processing methods
+* machine translation – no automatic method for filtering -> if you have reason to believe that most of the domain is machine-translated, mark the domain as *bad*
+* generated text – no automatic method for filtering -> if 75% of page or more is generated text, mark as *bad*
+* foreign language – paragraphs in another language will be detected with automatic language identifier. However, the identifier might not be able to differentiate closely related languages, e.g. Serbian from Croatian, -> mark the page as bad if everything is in another language; mark as bad if most of the page is in related language (very useful information)
+(e.g. in domain *mycity-military.com* (no. 151 in Croatian list) you can mark this as *lq*, if there is some ok Croatian in between)
+* non-textual (lists, no full sentences) – word phrases in the target language might still be useful for us, we don’t necessarily want to discard such pages -> prefer marking it as *low quality*
+
+Otherwise, whenever the issues are present, but do not meet the criteria for *bad*, mark as *low quality*. If you are not sure whether the domain is "bad enough”, mark it as *low quality*.
+
+**Additional issues**:
+* encoding issues, HTML markup – we will implement rules to correct them -> mark as *check* + note “encoding”/”markup” whenever they are present in the domain
+
+### How much to check?
+* if the domain is entirely *bad* that will be quickly visible
+* the lower the domain on the list, less needs to be checked – from 20th domain onward, skimming through the first 15 concordances is enough. No need to read the whole concordance, just skim through the beginning of it, just enough to be able to say whether the text is machine translation/generated text/in closely related language or not.
