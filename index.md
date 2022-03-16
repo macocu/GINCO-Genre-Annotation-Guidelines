@@ -109,7 +109,7 @@ Mark only sites that were checked - content with an empty value in column D is c
 ### Issues and how we address them with processing methods
 * machine translation – no automatic method for filtering -> if you have reason to believe that most of the domain is machine-translated, mark the domain as *bad*
 * generated text – no automatic method for filtering -> if 75% of page or more is generated text, mark as *bad*
-* foreign language – paragraphs in another language will be detected with automatic language identifier. However, the identifier might not be able to differentiate closely related languages, e.g. Serbian from Croatian, -> mark the page as bad if everything is in another language; mark as bad if most of the page is in related language (very useful information)
+* foreign language – paragraphs in another language will be detected with automatic language identifier. However, the identifier might not be able to differentiate between closely related languages, e.g. between Serbian and Croatian -> mark the page as *bad* if everything is in another language; mark as *bad* if most of the page is in related language (very useful information)
 (e.g. in domain *mycity-military.com* (no. 151 in Croatian list) you can mark this as *lq*, if there is some ok Croatian in between)
 * non-textual (lists, no full sentences) – word phrases in the target language might still be useful for us, we don’t necessarily want to discard such pages -> prefer marking it as *low quality*
 
@@ -120,4 +120,4 @@ Otherwise, whenever the issues are present, but do not meet the criteria for *ba
 
 ### How much to check?
 * if the domain is entirely *bad* that will be quickly visible
-* the lower the domain on the list, less needs to be checked – from 20th domain onward, skimming through the first 15 concordances is enough. No need to read the whole concordance, just skim through the beginning of it, just enough to be able to say whether the text is machine translation/generated text/in closely related language or not.
+* the lower the domain on the list, less needs to be checked – from 20th domain onward, skimming through the first 15 concordances is enough. No need to read the whole concordance, just skim through the beginning of it, just enough to be able to say whether the text is machine translation/generated text/closely related language or not.
