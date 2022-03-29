@@ -69,7 +69,9 @@ Mark only sites that were checked - content with an empty value in column D is c
 
 * dictionary entries -> *ok*, if most sentences are in a foreign language -> *bad*
 * older varieties of language (e.g. in old literature) -> *ok*, mark non-standardness of text by *Y* in column I
-
+* search engine domains --> *ok*
+* domains that include corpora --> *ok*
+* text, concatenated with - (no spaces between words: "Lastnik-stanovanja-je-po-smrti-najemnika-dolžan") --> If the issue is present in all/almost all examples, mark as *bad*, otherwise, mark as *lq* and add a note about it in column E.
 
 ## Topics
 
@@ -109,8 +111,7 @@ Mark only sites that were checked - content with an empty value in column D is c
 ### Issues and how we address them with processing methods
 * machine translation – no automatic method for filtering -> if you have reason to believe that most of the domain is machine-translated, mark the domain as *bad*
 * generated text – no automatic method for filtering -> if 75% of page or more is generated text, mark as *bad*
-* foreign language – paragraphs in another language will be detected with automatic language identifier. However, the identifier might not be able to differentiate between closely related languages, e.g. between Serbian and Croatian -> mark the page as *bad* if everything is in another language; mark as *bad* if most of the page is in related language (very useful information)
-(e.g. in domain *mycity-military.com* (no. 151 in Croatian list) you can mark this as *lq*, if there is some ok Croatian in between)
+* foreign language – paragraphs in another language will be detected with automatic language identifier. However, the identifier might not be able to differentiate between closely related languages, e.g. between Serbian and Croatian -> mark the page as *bad* if everything is in another language; mark as *bad* if most of the page is in related language
 * non-textual (lists, no full sentences) – word phrases in the target language might still be useful for us, we don’t necessarily want to discard such pages -> prefer marking it as *low quality*
 
 Otherwise, whenever the issues are present, but do not meet the criteria for *bad*, mark as *low quality*. If you are not sure whether the domain is "bad enough”, mark it as *low quality*.
